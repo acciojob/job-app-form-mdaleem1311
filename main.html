@@ -8,6 +8,35 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="#" method="post">
+		<label for="name" style="margin:15px;"">Name<span>*</span></label><br>
+		<input type="text" id="name"placeholder="Enter your Name" required style="margin:15px;"><br>
+		<label for="email" style="margin:15px;"">Email<span>*</span></label><br>
+		<input type="email" id="email"placeholder="Enter your Email" required style="margin:15px;"><br>
+		<label for="gender" style="margin:15px;"">Gender:-<span>*</span></label><br>
+		<input type="radio" id="Male" name="gender" value="Male"  style="margin:15px;">Male
+		<input type="radio" id="Female" name="gender" value="Female"  style="margin:15px;">female<br>
+		<label for="brands" style="margin:15px;"">Laptop Brands<span>*</span></label><br>
+		<select id="brands" name="brands" style="margin:15px;">
+			<option value="">Select Laptop Brand</option>
+			<option value="brand1">Apple</option>
+			<option value="brand2">Dell</option>
+			<option value="brand3">HP</option>
+			<option value="brand4">ASUS</option>
+			<option value="brand5">Toshiba</option>				
+		</select><br>
+		<label for="age" style="margin:15px;"">Age:-<span>*</span></label><br>
+		<input type="number" id="age"placeholder="Enter your age" required style="margin:15px;"><br>
+		<label for="dob" style="margin:15px;"">Date of Birth:-<span>*</span></label><br>
+		<input type="date" id="dob" required style="margin:15px;"><br>
+		<label for="password" style="margin:15px;"">Password<span>*</span></label><br>
+		<input type="password" id="password"placeholder="Enter password" required style="margin:15px;"><br>
+		<label for="portfolio" style="margin:15px;"">Portfolio<span>*</span></label><br>
+		<input type="url" id="portfolio"placeholder="Enter URL" required style="margin:15px;"><br>
+		<label for="btn"> </label>
+		<input type="button"id="btn"  value="submit"   style="margin:15px;">
+		<input type="reset" id="btn" value="Reset All" style="margin:15px;">		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
